@@ -2,6 +2,9 @@
 
 ## Project Overview
 This project develops a Predictive Sales Model to forecast sales revenue for a retail store using machine learning (Random Forest &amp; XGBoost) and advanced feature engineering. The model is designed to optimize business decisions by predicting future sales based on historical data.
+
+## Key Features:
+Dataset: Retail Store Sales Transactions (Kaggle: https://www.kaggle.com/datasets/marian447/retail-store-sales-transactions)
 -Regular Model: Random Forest
 -Advanced Model: XGBoost with hyperparameter tuning
 -Feature Engineering: Lag variables, rolling averages, holiday effects

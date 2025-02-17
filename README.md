@@ -38,20 +38,20 @@ This project develops a Predictive Sales Model to forecast sales revenue for a r
 SHAP (SHapley Additive Explanations) used to interpret model predictions.
 
 ## Conclusion
-=> Model Comparison
+=> Model Comparison:
 Random Forest MAE: 9.21
 XGBoost MAE: 8.66
 XGBoost outperforms Random Forest with a lower Mean Absolute Error (MAE), making better predictions.
-=> Feature Importance (SHAP Analysis)
+=> Feature Importance (SHAP Analysis):
 Top Influential Features:
 Rolling Mean (7-day average sales): Has the highest impact on predictions.
 Sales Lag Features (7, 14, 30 days): Past sales data significantly influence future predictions.
 Day of the Week & Month: Sales trends vary based on weekdays and months.
 Holiday Indicator: Sales tend to fluctuate around holidays.
-=> Observations from SHAP Plot
+=> Observations from SHAP Plot:
 Features with higher SHAP values have a greater influence on model predictions.
 Rolling Mean & Recent Sales Lags dominate the prediction, highlighting the importance of time-series patterns.
-=> Key Takeaways
+=> Key Takeaways:
 - XGBoost performs better than Random Forest, making it the preferred model.
 - Sales prediction is highly dependent on historical sales trends.
 - Time-related factors like week, month, and holiday status play an essential role in forecasting sales.
